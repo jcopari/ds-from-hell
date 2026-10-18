@@ -13,6 +13,7 @@ typedef struct s_ponto
 
 t_ponto *criar_no(int value);
 void    percorre_lista(t_ponto *ptr);
+void	inserir_inicio(t_ponto **lista, int conteudo);
 
 
 
